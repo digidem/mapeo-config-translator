@@ -1,0 +1,75 @@
+Abaixo está um exemplo de um arquivo CSV. Neles estão idiomas. algumas linhas são categorias. As outras linhas são as traduções. Escreva um script node Que pegue todos os arquivos JSON de uma pasta, que é o primeiro parametro. Selecione o campo "name" de cada arquivo json, veja qual dos valores da primeira coluna do arquivo CSV são mais similares a esse valor. Crie novas versões desses arquivos com as traduções para as outras quatro línguas. Todos outros valores deveram permanecer o mesmo. O Segundo parametro é qual o path de ouput dos arquivos json. Deve ser um script bin que aceita parametros.
+
+Também crie instruções de uso em inglês, como arquivo README.md do Github.
+
+Português	Apalai	Wayana 	Tiriyó	Katxuyana
+Recursos naturais	Recursos naturais	Recursos naturais	Recursos naturais	Recursos naturais
+1. Ninho de aves	Torõ tõ myny	lo tïhpatoponpë	Tonoro eehe.	torono yonï
+2. Local de argila	Orino esary	warle enenela	ërinë ipata.	yarimna yatxarï
+3. Planta (artesanato, construção, medicinal, cultural, bamboo flecha, bambu flauta, bamboo ponta de flecha)	Taryka (tykahsamo, tyrisamo, opime, otonohtohtonomo, kurumuri, pyrou potyry, rue totosemy)	molo lep mam emna nekalë	Tanmë(:tïkapï,tïrïto,ëpi itu taon,wehto taerë,paara pïrëu potï me tïrïfë,paara sari).	yut'tawohoye titxemï o yu'tawomo yoherir yotohu, ohi, wenowetohu, kwama piihowaii, kwamatxari, kwama purous hoturu
+4. Coleta de sementes	Ipuhturu esary	ituhtak ïtëtop ulakanïmtope ehemapë pona	Iputupë amihto.	enerïr yanïmtohu
+5. Animais (terrestre, rio, ave)	Onokyro (tonosamo, nakuaõkomo, torono)	ïlo upaklë ipokan ikunalatëweihem	Mëfarëton pïponton,tunahaon ton, tëpëri kenton.	wotokumu (ronokutuho, ikwawono, tahokemï)
+6. Local de desova (curimatã, zuana, sauaru)	Onokaro ehmokatopo (arumaxi, zuãna, purupuru)	ïpata man amatkuau	iwemokato pata(aimara,surui,waraku,pacu,kurupi).	emokato yatxarï (kaimare, iwana, itxawaru)
+7. Arumã	Aruma esary	wama	waruma ipata.	warma
+8. Local de coleta	Tykyrysã esary	ipata	tïmohaen ton.	anïmtoh yatxarï
+9. Bacaba	Airiki esary	kumu	kumu ipata.	kumu
+10. Açaí	Apu esary	wapu	wapu ipata.	wahu
+11. Andiroba	Karapa esary	karapa	karapaimë.	karahaïmo
+12. Castanha do Pará	Tutuko esary	tutuko	tuha ipata.	tutko
+13. Copaiba	Kapaju esary	kuai pata	mapataru.	mahataru
+14. Buritizal	Wai esary	lueimë	koi ipata.	kuwa
+15. Pesca (Akari, Suruí, Pacu, Aimara, Trairão, Pirarara, Manué, Poné)	Urakanatopo tuna ena (pore, surui, paku, aimara, piarara, manue, pone)	katom pële,hului ,paku,aimala,pialala,manue,pëne	kana emato(pëne,wasitau,rikirikimë,pëmu).	kutma yanïmtohu (pore, okorohi, paku, aimara, pone
+16. Caça (anta, paca, arimi, pakira, etc)	Urakanatopo ituhtaka (maxipuri, kurimau, arimi, pakira, tyorono)	tuëhhamo maipui,kulimau,pakila,	ototon(pai,kurimau,kapai,pakira,ponyeke,akuri,kayakë).	renano wehohu (ewarko, kirmawu, wotoimo, irema)
+17. Abelha em tronco (apis ou meli)	Ano nymyry esary	wanë wewe jau	wanë wewe entunpë taon(purupïn,puruton).	wehoimo wewe mïtawono (tomkemtahi)
+18. Criação de abelha (apiario e melipona)	Ano tuãtanohsamo (ano nymy, ano imo)	wanë uwantanïptop	wanë arimikato(puruton,purupïn).	wenoimo yohit'katohu
+Território	Território	Território	Território	Território
+1. Marcos geográficos (placa, marco geodesico, limite)	Etyhpymahpyry po tyrityamo (placa, marco geodesico, limite)	ïlo tïhpatoponpë	nono ikutuntëto tëpu rïfëke(placa,nono ikutuntëfë eema).	rono kuknomtotohun (placa, rono rakatpïrïi)
+2. Presença de isolado (marcas)	Ikuremahnõ esary (esahpyry komo)	emna patau man ëhenelahnë kalipono tom	enepïnton tareno ton ipata.	tahutïkem ito wetohu (ikukuro)
+3. Pontos historicos (nome)	Tokaramo (axiki, zehpo eny, tyorono)	tualë emna lep nai lome enipohnopïla nai emna	tïponopï ton ipata.	Takaremtomu (esotï)
+4. Trilha (inicio, final, meio / caça, aldeia, roça)	Osema (apitory, irãnary etyhpyry / urakanatopo, pata, tupito)	ehemaptëkpï ailë emna ulakanïmïla nai	wëiwahto eema,tïpitë eema,pata eema.	osma (ihitotohu, ekrekatohu, ewantawï/woto, atxato)
+5. Terra (terra firme, campo de aldeia, terra alagada, roça antiga, piçarra, capoeira, encosta e topo morro, pedra, montanha)	Nono (nono kumapyny, pata pitiko, tupito eraximatopo, nono kumakety tupitõpo, topusakara esary, ẽmorymano, topu, ypy)	ïlo ipokan po lëken emna nïjai ïmë	nono imapïn,pata me tïrëin,itotorï,tïpitënpë,tëhara,maninkaora,imïnïnï,pïï.	rono (rono oktxanï, atxato woskutuho, yakrara, patatpo tohkarara, patatpo, tatahïsona uhu, tohu, uhuimo)
+6. Ambiente (cerrado, floresta, campo, igapo)	Esary (ãtarykahmano, itu, ona, imamenory mano)	amak	iwekorokafë,pau pisi,	Na (tumatïkemï, yutuimo, wosuimo, yakrara)
+Ameaças (Typokõnohsã kara (kamiraramano)				
+Ameça	Ihtomananomo (tokare pyra eporehkatopo, uuru poko erohketomo, wewe poko erohketomo, kaikuxi pihpyry poko erohketomo, onokaro ekamotopo, urakanaketomo, wewe epukuru poko erohketomo, etonie tokẽ urakanaketomo, etonie rokẽ ytoketomo)	Ekalïmna tepolepkahamo	ihërënmaneton(koutu pëkënton,paranka pëkënton,mëfarë pifë pëkënton,mëfarë aminëneton,kana pëkënton,wewe ekukaneton,akamafëre wëiwato,kanawaimë itaonkaken tëke).	kunonomaï (moye rïka tuwomsomï, garimpo, newehokono, kaikus hokono, woto yonhekne, kutmahokono, mïkaiwaru moye rïka tïrenemï, kanawaimo yonetohu)
+Estrutura de aldeia	Estrutura de aldeia	Estrutura de aldeia	Estrutura de aldeia	Estrutura de aldeia
+20. Roça (campu, sítio, roça, chácara)	Tupito (pata pitiko tupito ewomatopo)	ïmë	Tïpitë oipon.	imoho (wosu, atxatohike, imoho, atxato)
+21. Futura roça	Imeĩpo tupito me tyrisemy	ïmakpan ïmë	ëwëno tïpitë.	akomno imoho titxemï
+22. Ponto de lixo	Otyrõpo tõ esary	Imukutpë pata	afuru ipata.	nekmanïtpo yaimatohu
+23. Poço artesiano	Tuna ẽme ahkahpyry	tuna lo loptalï	tuna amikafë.	tuna tahikatïkemï
+24. Casa de farinha	Kajama aitoh tapyiny	kajama pakolon	kayama aito ipakoro.	kayama yaitohu
+25. Casa de fogo	Apoto tapyiny	wapok pakolon	mahto ipakoro.	wehoto küwamanï
+26. Casa de manutenção de rabeta	Rabeta kurãkatoh tapyiny	etïkompalë petukatop pakolon	Rabeta isuka to ipakoro.	rabeta oktxe yitohu kuwama
+27. Gerador de energia (potencia)	Tututu tapyiny	montolu anumhakan	turi ikari.	weyu (poyimranï)
+28. Energia solar (potencia)	Saereh katoh xixi poko exikety	hawemkatop paineu	weimato ikari.	internet yatxarï ( ahutoitu)
+29. Ponto de Internet (senha)	Internet esary	ëtutop pakolon	internet ipakoro.	isis hoyono weyu (poyimranï)
+30. Ponto de Rádio (saúde, funai, comunitário)	Radio esary (saúde po, funai po, tuhkãkõ po)	ëtutop pako	rarion pakoro.	rádio yatxarï ( ohihokono, FUNAI, Pïrehno nirirï)
+31. Alojamento	Karaewa tõ nyhtopo	ïniktop pakolo	wënïhto pakoro.	kuwama wïnïkno wetohu
+32. Casa de informática	Computador tõ tapyiny	Computador pakolon	wëinpato pakoro computador pë.	kuwama informatica wiyanï
+33. Pista de pouso	Kaẽ porohtopo	opalan ewakamtop	kanawaimë anotato.	kanawaimo wehurkatohu
+34. Posto de saúde	Osepinohtoh tapyiny	ëpi pakolon	ëpi pakoro.	ohi kuwamanï
+35. Casa (familia ou proprietario)	Tapyi	pakolo jïnïktop ïpeinom malë	kïmoitï pakoro,ma ëpakoro.	kuwama (kïwyanï na kïwyannero)
+36. Escola	Atamorepatopo	ëhepatop	wëinpato ipakoro.	wosomukano wetohu 
+37. Prefeitura	Porohtopo	tukusipan	pata iranomane.	tamiriki
+38. Igreja (catolica, evangelica, tarano)	Jezu poetory tõ oximõtopo	kan pakolon	kanpakoro.	kuhorkum kuwamanï (katoliku, evangelico, pïrehno)
+39. Campo de futebol	Bola ematopo	ëhetamikatop	wëemaminato ipata.	bola yaimatohu
+40. Posto da Funai	Funai tapyiny	Funai pakolon	funai pakoro.	funai kuwamanï
+41. Casa do mel	Ano tapyiny	wanë pakolon	wanë ipakoro.	weno kuwamanï
+42. Casa cacique	Typatake tapyiny	tïpatakem pakolon	pata entu ipakoro,pata entu ikanawa aruto, funai marë.	pata yotono kuwamanï
+43. Porto (funai, cacique, etc)	Nakuata (funai nakuatary, typatakẽ nakuatary, tyorono)	funai tunakwatï	kanawa aruto (funai, pataentu)	funai yatxarï, pata yotono
+44. Cemitério	Okepy zonẽtopo	ëkep pakolon	ëëke ipata.	okeh yatxarï
+45. Aldeia antiga	Patãpo	pata upakak	penatonpë pata.	atxato nahïnïtpo
+46. Aldeia	Pata	ëutë	pata.	atxato  
+47. Canoa Solar	Kanawa Xixi	Kanawa Sisi	 	
+Recursos hídricos	Recursos hídricos	Recursos hídricos	Recursos hídricos	Recursos hídricos
+48. Poção	Zue	awakpï tuna	tuna amikafë	emeke
+49. Praia	Isawany	hamuk	tuna etao.	oresumna
+50. Cachoeira	Sõkane	ïsolï	tuna iwëtapuru.	etawunu
+51. Nascente de água	Tuna zupuhpyry	ikunaimë	TUNA iweyorokato	tuna yayakïrï
+52. Ilha	Ahmõta	ïpï pepta	Pau me iweifë.	ikïrïrïnï
+53. Igarapé	Iporiry	amak	Tuna ipëri.	ikenï
+54. Rio	Tuna	tuna	tuna mono.	tuna  
+55. Lago	Ikuhpo	ikukpë	ikutupë.	ikutpo
+Estrutura não indígena	Estrutura não indígena	Estrutura não indígena	Estrutura não indígena	Estrutura não indígena
+56. Base militar	Soutatu esary	Solatitom pata	Suratiton iyoroko.	kayar kuwamanï
+57. Hidrelétrica	Energia tuna poko exikety esary	Ëutë weju	turimontouru ipakoro	wei tunahoye
+58. Posto de vigilância	Mpmp ewomatoh esary	Elahe pata	ikurun mane.	amenekane kuwamanï
