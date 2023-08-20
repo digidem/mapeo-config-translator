@@ -13,16 +13,21 @@ This script is a Node.js application designed to translate JSON files using data
 
 ## Usage
 
+The script is run from the command line with the following arguments:
+
+- `csvFilePath`: The path to the CSV file or the ID of the public Google Sheet containing the translations.
+- `jsonFolderPath`: The path to the folder containing the preset JSON files to translate (optional, defaults to ./presets).
+
+Easiest way is to use it from inside a Mapeo config project.
+
 Run directly with npx: `npx mapeo-config-translator 1S7mdKPfT_3AaWS9mxn1qy5mj1aszuRNuncC7GlDSz_8`
 
 Or install globally: `npm i -g mapeo-config-translator`
 
+And run with `mapeo-config-translator 1S7mdKPfT_3AaWS9mxn1qy5mj1aszuRNuncC7GlDSz_8 /path/to/config/presets`
+
 Example template for translations is available here: https://docs.google.com/spreadsheets/d/1S7mdKPfT_3AaWS9mxn1qy5mj1aszuRNuncC7GlDSz_8/edit#gid=0
 
-The script is run from the command line with the following arguments:
-
-- `csvFilePath`: The path to the CSV file or the ID of the public Google Sheet containing the translations.
-- `jsonFolderPath`: The path to the folder containing the JSON files to translate (optional, defaults to ./presets).
 
 ## To-Dos
 
