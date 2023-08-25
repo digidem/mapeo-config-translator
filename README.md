@@ -24,7 +24,7 @@ Run directly with npx: `npx mapeo-config-translator https://docs.google.com/spre
 
 Or install globally: `npm i -g mapeo-config-translator`
 
-And run with `mapeo-config-translator 1S7mdKPfT_3AaWS9mxn1qy5mj1aszuRNuncC7GlDSz_8 /path/to/config/presets`
+And run with `mapeo-config-translator 1S7mdKPfT_3AaWS9mxn1qy5mj1aszuRNuncC7GlDSz_8 /path/to/config`
 
 Example template for translations is available here: https://docs.google.com/spreadsheets/d/1S7mdKPfT_3AaWS9mxn1qy5mj1aszuRNuncC7GlDSz_8/edit#gid=0
 

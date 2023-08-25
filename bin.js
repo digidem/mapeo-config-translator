@@ -2,5 +2,5 @@
 
 const { main } = require("./src/index.js");
 
-const [, , csvFilePath, jsonFolderPath = "./translations"] = process.argv;
+const [, , csvFilePath, jsonFolderPath = "."] = process.argv;
 main(csvFilePath, jsonFolderPath);

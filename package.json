@@ -1,6 +1,6 @@
 {
   "name": "mapeo-config-translator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Translate configuration files for Mapeo based on a CSV file or a Google Spreadsheet",
   "main": "bin.js",
   "bin": {

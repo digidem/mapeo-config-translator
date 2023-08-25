@@ -180,7 +180,11 @@ async function main(csvFilePath, configFolder) {
         "package.json",
       );
       if (fs.existsSync(packageJsonSourcePath)) {
-        const packageJson = require(packageJsonSourcePath);
+        // Read the file contents as a string
+        const fileContent = fs.readFileSync(packageJsonSourcePath, "utf8");
+        // Parse the JSON string into an object
+        const packageJson = JSON.parse(fileContent);
+        // Extract the desired values
         const { name, version } = packageJson;
         const slugifiedLanguage = language.toLowerCase().replace(/\s+/g, "-");
         const modifiedPackageJson = {
