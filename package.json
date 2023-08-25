@@ -1,13 +1,13 @@
 {
   "name": "mapeo-config-translator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Translate configuration files for Mapeo based on a CSV file or a Google Spreadsheet",
   "main": "bin.js",
   "bin": {
     "mapeo-config-translator": "bin.js"
   },
   "scripts": {
-    "test": "DEBUG=true mocha test/csvFile.js && node test/googleSheet",
+    "test": "DEBUG=true mocha test/*",
     "lint": "npx prettier --write ."
   },
   "keywords": [
@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.0.0",
+    "fs-extra": "^11.1.1",
     "public-google-sheets-parser": "^1.3.2",
     "string-similarity": "^4.0.4"
   },
